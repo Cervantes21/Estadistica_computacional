@@ -6,9 +6,9 @@ from probabilidad import p
 # Q = 'Que no ocurra un evento'
 # Formula: P(no evento) = 1 - P(evento)
 
-def q(x):
-    x = p(a,b)
-    return 1 - x
+def q(x,a,b):
+    p_evento = p(a,b)
+    return 1 - p_evento
 
 if __name__ == '__main__':
     
@@ -16,7 +16,8 @@ if __name__ == '__main__':
     b = int(input('Dame un número B: '))
     os.system('clear')
     evento=p(a,b)
-    no_prob=q(evento)
+    x = evento
+    no_prob=q(x,a,b)
     print(f'La probabilidad de que no ocurra es: {no_prob}')
     
 

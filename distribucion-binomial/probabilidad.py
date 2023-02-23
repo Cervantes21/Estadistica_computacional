@@ -8,6 +8,6 @@ def p(a,b):
 
 if __name__ == '__main__':
     rf = int(input('¿Cuál es el resultado qué esperas? '))
-    rp = int(input('¿Cuáles son los resultados posibles? '))
+    rp = int(input('¿Cuál es el conjunto de resultados posibles? '))
     res=p(rf,rp)
     print(f'La probabilidad es: {res}')
