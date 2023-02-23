@@ -3,7 +3,8 @@ import os
 from probabilidad import p 
 
 # --- No probabilidad --- #
-# Q = P(no evento) = 1 - P(evento)
+# Q = 'Que no ocurra un evento'
+# Formula: P(no evento) = 1 - P(evento)
 
 def q(x):
     x = p(a,b)
