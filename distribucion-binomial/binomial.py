@@ -1,5 +1,5 @@
 import os
-# --- Distribución Binomial(nCr) --- #
+# --- Coeficiente Binomial(nCr) --- #
 def ncr(a, b):
     ## --- Calculadora Factorial --- ##
     def f(n):
@@ -30,5 +30,5 @@ if __name__ == '__main__':
         b = int(input('Dame un número B: '))
         res = ncr(a, b)
         os.system('clear')
-        print(f'La distribución Binomial es {res}')
+        print(f'El coeficiente Binomial es {res}')
 
